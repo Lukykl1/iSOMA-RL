@@ -20,11 +20,11 @@ pip install gym numpy matplotlib stable-baselines3 opfunu timeit tqdm
 #### CustomEnv
 CustomEnv is a key component of this script. It is a custom implementation that combines the iSOMA algorithm with Reinforcement Learning using PPO. This environment is designed to simulate optimization problems, making it an excellent tool for testing and evaluating RL-based optimization strategies. CustomEnv can be used as a drop-in replacement in various scenarios where iSOMA-like behavior is desired in a reinforcement learning context.
 
-#### Variants
-There are three variants. 
-mnk_isoma_rl - optimizes m, n, k parameters of iSOMA using PPO RL
-prt_isoma_rl - optimize prt parameter of iSOMA using PPO RL 
-step_isoma_rl - optimize step and step size parameters of iSOMA using PPO RL 
+#### Variants of iSOMA Parameter Optimization Using PPO RL
+- **mnk_isoma_rl**: This variant focuses on optimizing the 'm', 'n', and 'k' parameters of iSOMA using Proximal Policy Optimization (PPO) Reinforcement Learning (RL).
+- **prt_isoma_rl**: This variant is designed to optimize the 'prt' parameter of iSOMA employing the PPO RL approach.
+- **step_isoma_rl**: In this variant, the focus is on optimizing both the 'step' and 'step size' parameters of iSOMA, utilizing PPO RL methodology.
+
 
 #### Script Arguments
 The script takes several command-line arguments to customize its behavior:
